@@ -1,0 +1,28 @@
+#Password for connecting to all salthosts
+ssh_pass="SECRET_ROOT_PASS"
+
+
+#Settings for connection to Git
+gitUser="YOUR_GIT_USER"
+gitToken="YOUR_GIT_TOKEN"
+
+
+#Git link with project to Deploy
+gitProject="http://git.mycompany.sk/DemoProject"
+
+
+#Variables for downloading salt formulas from git
+NAMESPACE="saltstack"
+BASE_PATH="http://git.mycompany.sk/"
+PROJECT_SEARCH_PARAM="salt-formula"
+
+
+#Salt host (only 1 master supported atm)
+saltMaster="SALT_MASTER_HOST"
+
+
+saltMinions=(SALT_MINION_1 SALT_MINION_2 SALT_MINION_3)
+
+
+#Salt envs to create
+saltEnvs=(DEV PILOT TEST PROD)

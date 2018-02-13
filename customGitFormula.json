@@ -1,0 +1,4 @@
+{"path":"salt-formula-linux","git":"http://git.mycompany.sk/saltstack/salt-formula-linux-new.git","branch":"master"}
+{"path":"salt-formula-saltmanage","git":"http://git.mycompany.sk/saltstack/salt-formula-saltmanage.git","branch":"master"}
+{"path":"salt-formula-firewalld","git":"http://git.mycompany.sk/saltstack/salt-formula-firewalld.git","branch":"master"}
+{"path":"salt-formula-epel","git":"http://git.mycompany.sk/saltstack/salt-formula-epel.git","branch":"master"}
